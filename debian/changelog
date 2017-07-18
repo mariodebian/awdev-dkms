@@ -1,0 +1,5 @@
+awdev-dkms (0.5.1) unstable; urgency=medium
+
+  * Fix build in kernel 4.11.x
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Tue, 18 Jul 2017 16:19:53 +0200

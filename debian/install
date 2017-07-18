@@ -1,0 +1,3 @@
+./dkms.conf   usr/src/awdev-0.5/
+./awusb.c     usr/src/awdev-0.5/
+./Makefile    usr/src/awdev-0.5/
