@@ -2,11 +2,12 @@ Index: awdev-dkms-0.5/source/awusb.c
 ===================================================================
 --- awdev-dkms-0.5.orig/source/awusb.c
 +++ awdev-dkms-0.5/source/awusb.c
-@@ -42,6 +42,10 @@
+@@ -42,6 +42,11 @@
  #include <linux/ioctl.h>
  #include <linux/mutex.h> //?
  
 +/* By Mario */
++#include <linux/version.h>
 +#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 11, 0)
 +#include <linux/sched/signal.h>
 +#endif
