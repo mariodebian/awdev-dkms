@@ -1,7 +1,7 @@
-Index: awdev-dkms-0.5/awusb.c
+Index: awdev-dkms-0.5/source/awusb.c
 ===================================================================
---- awdev-dkms-0.5.orig/awusb.c
-+++ awdev-dkms-0.5/awusb.c
+--- awdev-dkms-0.5.orig/source/awusb.c
++++ awdev-dkms-0.5/source/awusb.c
 @@ -42,6 +42,10 @@
  #include <linux/ioctl.h>
  #include <linux/mutex.h> //?
